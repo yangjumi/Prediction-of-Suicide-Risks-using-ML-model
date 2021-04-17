@@ -1,0 +1,11 @@
+hn_final 
+: rawdata에서 target attribute에 대한 랜덤포레스트 변수 20개를 추출한 파일입니다.
+
+hn_final0
+: hn_final 에서 비자살위험군만 추출한 것입니다.(target attribute인 suicide_bin = 0인 데이터)
+
+hn_final1
+: hn_final 에서 비자살위험군만 추출한 것입니다.(target attribute인 suicide_bin = 1인 데이터)
+
+hn_shp2
+: hn_fianl attribute 가운데 decision tree 모델의 node에 사용된 attribute 4개로 구성된 데이터 파일입니다.
